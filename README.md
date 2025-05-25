@@ -1,5 +1,4 @@
-# EXP 2: Fitting Poisson  distribution
-# Date:
+# Fitting Poisson  distribution
 # Aim : 
 
 To fit poisson distribution for the arrival of objects per minute from the feeder
@@ -30,11 +29,8 @@ The Poisson distribution is the discrete probability distribution of the number 
 ![image](https://user-images.githubusercontent.com/103921593/230282876-f4a5afbf-cac1-4648-a1b0-c78840638a8e.png)
 
 # Program :
-```py
-Developed by : Sanjeev.A
-Register number : 24900568
 
-import numpy as np
+```python
 import math
 import scipy.stats
 L=[int(i) for i in input().split()]
@@ -69,11 +65,12 @@ if cal_chi2_sq<table_chi2:
     print("The given data can be fitted in poisson Distribution at 1% LOS")
 else:
     print("The given data cannot be fitted in Poisson Distribution at 1% LOS")
- 
 ```
-# Output : 
-![280447781-c702cd34-e9b4-46de-9523-a5ee33bd577c](https://github.com/PriyankaAnnadurai/Poisson_distribution/assets/118351569/4d915f76-b588-451a-9f0e-9a98f675b4a8)
+ 
 
+# Output : 
+
+![image](https://github.com/user-attachments/assets/e4e07cba-0999-44cb-a9ed-41d33887bebd)
 
 
 # Results
